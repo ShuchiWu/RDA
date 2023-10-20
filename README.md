@@ -1,3 +1,3 @@
 # SDA
 
-! [SDA] (https://github.com/ShuchiWu/SDA/blob/master/SDA.png)
+![SDA method](https://github.com/ShuchiWu/SDA/blob/master/SDA.png)
