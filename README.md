@@ -5,5 +5,5 @@ This repository contains the code of ["Refine, Discriminate and Align: Stealing 
 ![](https://github.com/ShuchiWu/SDA/blob/master/RDA.png)
 
 ## Pre-train an image encoder
-We pre-train image encoders (target encoders) using [SimCLR](https://proceedings.mlr.press/v119/chen20j/chen20j.pdf), and the file SimCLR.py is our implementation which we refer to the implementation of [BadEncoder](https://arxiv.org/pdf/2108.00352). Our default model architecture is ResNet18, and you speicify the model you want by making corresponding modifications to the files in the <font color="#cccccc">model</font> folder. 
+We pre-train image encoders (target encoders) using [SimCLR](https://proceedings.mlr.press/v119/chen20j/chen20j.pdf), and the file SimCLR.py is our implementation which we refer to the implementation of [BadEncoder](https://arxiv.org/pdf/2108.00352). Our default model architecture is ResNet18, and you speicify the model you want by making corresponding modifications to the files in the `model` folder. 
 
