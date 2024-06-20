@@ -5,5 +5,5 @@ This repository contains the code of ["Refine, Discriminate and Align: Stealing 
 ![](https://github.com/ShuchiWu/SDA/blob/master/RDA.png)
 
 ## Pre-train an image encoder
-> The file pre-training 
+> We pre-train image encoders using [SimCLR](https://proceedings.mlr.press/v119/chen20j/chen20j.pdf), and the file SimCLR.py is our implementation which we refer to the implementation of [BadEncoder](https://arxiv.org/pdf/2108.00352).
 
