@@ -4,7 +4,7 @@ This repository contains the code of ["Refine, Discriminate and Align: Stealing 
 
 ![](https://github.com/ShuchiWu/SDA/blob/master/Pipeline.jpg)
 
-## Pre-train an image encoder
+## Pre-train image encoders
 We pre-train image encoders (target encoders) using [SimCLR](https://proceedings.mlr.press/v119/chen20j/chen20j.pdf), and the file SimCLR.py is our implementation which we refer to the implementation of [BadEncoder](https://arxiv.org/pdf/2108.00352). Our default model architecture is ResNet18, and you can speicify the model you want by making corresponding modifications to the files in the `/model` folder. The [training data] should be downloaded firsr, and then you could run the following script to pre-train image encoders:
 
 ```scrpit
