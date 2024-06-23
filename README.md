@@ -10,3 +10,6 @@ We pre-train image encoders (target encoders) using [SimCLR](https://proceedings
 ```python
 python SimCLR.py
 
+## Steal image encoders
+The query data we use keeps identical across all the stealing methods we compare. Our implementation of generating sample-wise prototypes has refferred the official code of [EMP-SSL](https://arxiv.org/pdf/2304.03977). The mapping of each method to its code is as follows:
+```python
