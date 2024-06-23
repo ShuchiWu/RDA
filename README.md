@@ -17,4 +17,5 @@ The query data we use keeps identical across all the stealing methods we compare
 Conventional_Attack.py  # Conventional
 StolenEncoder.py  # StolenEncoder 
 Con-Steal.py  # Cont-Steal
+RDA.py  # RDA (ours)
 ```
