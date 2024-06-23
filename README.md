@@ -14,7 +14,7 @@ python SimCLR.py
 ## Steal image encoders
 The query data we use keeps identical across all the stealing methods we compare. Our implementation of generating sample-wise prototypes has refferred the official code of [EMP-SSL](https://arxiv.org/pdf/2304.03977). The mapping of each method to its code is as follows:
 ```python
-[Conventional](https://openaccess.thecvf.com/content/CVPR2023/papers/Sha_Cant_Steal_Cont-Steal_Contrastive_Stealing_Attacks_Against_Image_Encoders_CVPR_2023_paper.pdf) --> Conventional_Attack.py
-[StolenEncoder](https://dl.acm.org/doi/pdf/10.1145/3548606.3560586) --> StolenEncoder.py
-[Cont-Steal](https://openaccess.thecvf.com/content/CVPR2023/papers/Sha_Cant_Steal_Cont-Steal_Contrastive_Stealing_Attacks_Against_Image_Encoders_CVPR_2023_paper.pdf) --> Con-Steal.py
+Conventional_Attack.py  # Conventional
+StolenEncoder.py  # StolenEncoder 
+Con-Steal.py  # Cont-Steal
 ```
