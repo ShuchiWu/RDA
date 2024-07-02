@@ -19,3 +19,9 @@ python StolenEncoder.py  # StolenEncoder (The original paper hasn't released the
 python Con-Steal.py  # Cont-Steal 
 python RDA.py  # RDA (ours)
 ```
+
+## Downstream classification
+We use (target or surrogate) image encoders to extract features of all training samples and store them to a feature bank first, which is utlized to train downstream classifiers next. You should configure the downstream task (i.e., dataset) you want first and run the following script for training:
+```scrpit
+python downstream_tasks.py
+```
