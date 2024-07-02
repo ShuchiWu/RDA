@@ -1,6 +1,6 @@
 # Refine, Discriminate and Align: Stealing Encoders via Sample-Wise Prototypes and Multi-Relational Extraction
 
-This repository houses the code for ["Refine, Discriminate and Align: Stealing Encoders via Sample-Wise Prototypes and Multi-Relational Extraction"](https://arxiv.org/abs/2312.00855) (🎉 accepted to ECCV 2024), a novel model-stealing approach targeting pre-trained image encoders. The datasets (query & downstream) and models (target & surrogate encoders) employed in this work are accessible at [datasets and models](https://drive.google.com/drive/folders/1VV97lBVwt5rPlKSHtKQ8PjCuH7d1-fK-?usp=sharing).
+This repository houses the code for ["Refine, Discriminate and Align: Stealing Encoders via Sample-Wise Prototypes and Multi-Relational Extraction"](https://arxiv.org/abs/2312.00855) (🎉 accepted to ECCV 2024 🎉), a novel model-stealing approach targeting pre-trained image encoders. The datasets (query & downstream) and models (target & surrogate encoders) employed in this work are accessible at [datasets and models](https://drive.google.com/drive/folders/1VV97lBVwt5rPlKSHtKQ8PjCuH7d1-fK-?usp=sharing).
 
 ![](https://github.com/ShuchiWu/SDA/blob/master/Pipeline.jpg)
 
