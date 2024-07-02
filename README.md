@@ -45,4 +45,4 @@ python Rounding_defense.py
 # Top-k
 python top-k.py
 ```
-Regarding the watermark-based approach, we adopt BadEncoder. Specifically, we utilize the ResNet18 model pretrained and backdoored by [BadEncoder](https://arxiv.org/pdf/2108.00352), which can be downloaded from the link provided above. Our next step involves evaluating the backdoor attack success rate for both the target and surrogate models to assess the robustness of RDA. For evaluation, we select the surrogate model that demonstrates the highest classification accuracy for downstream tasks.
+Regarding the watermark-based approach, we adopt BadEncoder. Specifically, we utilize the ResNet18 model pretrained and backdoored by [BadEncoder](https://arxiv.org/pdf/2108.00352), which can be downloaded from the link provided above or [the official github repository of BadEncoder](https://github.com/jinyuan-jia/BadEncoder). Our next step involves evaluating the backdoor attack success rate for both the target and surrogate models to assess the robustness of RDA. For evaluation, we select the surrogate model that demonstrates the highest classification accuracy for downstream tasks.
