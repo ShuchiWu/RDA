@@ -16,7 +16,8 @@ The query data we utilize remains consistent across all the stealing methods we 
 # Conventional (proposed as the baseline by Cont-Steal)
 python Conventional_Attack.py
 
-# StolenEncoder (Since the original paper hasn't released the code, we have implemented it ourselves based on the paper.)
+# StolenEncoder
+# Since the original paper hasn't released the code, we have implemented it ourselves based on the paper.
 python StolenEncoder.py  
 
 # Cont-Steal
