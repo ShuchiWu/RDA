@@ -32,3 +32,17 @@ At first, we utilize (target or surrogate) image encoders to extract features fr
 ```scrpit
 python downstream_tasks.py
 ```
+
+## Robustness evaluation
+In our paper, we have explored four defense mechanisms: three perturbation-based techniques (namely, noising, rounding, and top-k) and one watermark-based approach (backdoor). The code for perturbation-based defenses is provided as follows:
+```scrpit
+# Nosing
+python noise_defense.py
+
+# Rounding
+python Rounding_defense.py
+
+# Top-k
+python top-k.py
+```
+Regarding the watermark-based approach, we adopt BadEncoder. Specifically, we utilize the ResNet18 model pretrained and backdoored by [BadEncoder](https://arxiv.org/pdf/2108.00352), which can be downloaded from the link provided above. Our next step involves evaluating the backdoor attack success rate for both the target and surrogate models to assess the robustness of RDA. For evaluation, we select the surrogate model that demonstrates the highest classification accuracy for downstream tasks.
