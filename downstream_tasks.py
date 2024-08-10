@@ -82,7 +82,8 @@ if __name__ == '__main__':
 
     input_size = feature_bank_training.shape[1]
     criterion = nn.CrossEntropyLoss()
-
+    # There is a mistake in the paper that we say we use linear probing for evaluations.
+    # Actually we also incorporate a relu activation function so that this is not strictly linear. 
     classifier = NeuralNet(input_size, [args.hidden_size_1, args.hidden_size_2], num_of_classes).cuda()
 
     optimizer = torch.optim.Adam(classifier.parameters(), lr=args.lr)
