@@ -49,10 +49,12 @@ Regarding the watermark-based approach, we adopt BadEncoder. Specifically, we ut
 ## Citation
 If you use this code, please cite the following paper:
 ```script
-@article{wu2023refine,
+@inproceedings{wu2025refine,
   title={Refine, Discriminate and Align: Stealing Encoders via Sample-Wise Prototypes and Multi-Relational Extraction},
-  author={Wu, Shuchi and Ma, Chuan and Wei, Kang and Xu, Xiaogang and Ding, Ming and Qian, Yuwen and Xiang, Tao},
-  journal={arXiv preprint arXiv:2312.00855},
-  year={2023}
+  author={Wu, Shuchi and Ma, Chuan and Wei, Kang and Xu, Xiaogang and Ding, Ming and Qian, Yuwen and Xiao, Di and Xiang, Tao},
+  booktitle={European Conference on Computer Vision},
+  pages={186--203},
+  year={2025},
+  organization={Springer}
 }
 ```
